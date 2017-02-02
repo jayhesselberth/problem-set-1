@@ -3,7 +3,7 @@
 datasets='/Users/jayhesselberth/devel/MOLB7621/data-sets'
 # Which state has the highest popultion?
 
-states="$datasets/states.tab.gz"
+states="$datasets/misc/states.tab.gz"
 
 answer_1=$(gzcat $states \
     | grep -v '^#' \
